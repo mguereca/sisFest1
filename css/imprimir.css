@@ -1,0 +1,65 @@
+/* 
+    Document   : imprimir
+    Created on : 11/04/2013, 06:27:17 PM
+    Author     : Manuel Güereca @rezzaca
+    Description:
+        Diseño de la hoja para impresora.
+root { 
+    display: block;
+}
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+
+#boton{
+    display: none !important;
+}
+
+footer{
+    display:none !important;
+}
+
+body section article{
+    float: none !important;
+  width: auto !important;
+  margin:  0 !important;
+  padding: 0 !important;
+    
+}
+
+hr{
+    display: none !important;
+}
+
+body h2 { 
+    color: #000; 
+    font: 100%/150% Georgia, "Times New Roman", Times, serif; 
+    
+}
+
+#cabecera h2{
+    text-shadow: none !important;
+}
+
+#cabecera{
+    box-shadow: none !important;
+    height: 70pt;
+}
+
+#logo img{
+    -webkit-filter:grayscale(1);
+    filter:gray;
+}
+
+#tabla table th, td {
+    
+    border: 1px solid black;
+    text-align: left;
+    
+}
+
